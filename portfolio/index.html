@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <style>
         .tiro-devanagari-hindi-regular {
@@ -33,36 +34,37 @@
         <div class="navbar-start">
             <div class="dropdown ">
                 <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-50 w-100" fill="none" viewBox="0 0 24 24"
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h7" />
                     </svg>
                 </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content mt-3 z-[1] p-10 shadow bg-base-100 rounded-box w-52">
-                    <li><a>Homepage</a></li>
-                    <li><a>Download Resume</a></li>
-                    <li><a>About Me</a></li>
-                    <li><a>View Projects</a></li>
-                    <li><a>View Services</a></li>
-                    <li><a>View skills</a></li>
-                    <li><a>Contact Info</a></li>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1]shadow bg-base-200 rounded-box bg-dark">
+                    <li><a class="w-36 p-4">Homepage</a></li>
+                    <li><a class="w-36 p-4">Download Resume</a></li>
+                    <li><a class="w-36 p-4">About Me</a></li>
+                    <li><a class="w-36 p-4">View Projects</a></li>
+                    <li><a class="w-36 p-4">View Services</a></li>
+                    <li><a class="w-36 p-4">View skills</a></li>
+                    <li><a class="w-36 p-4">Contact Info</a></li>
                 </ul>
             </div>
         </div>
-        <img src="dd.jpg" alt="" height="6vh" width="7%">
-        <div class="navbar-center">
-            <a class="btn btn-ghost text-xl"></a>
+
+        <div class="navbar-center space-x-5 justify-center ">
+            <a href="https://twitter.com/home"> <img src="twitter.svg" class="w-10 h-10 "></a>
+            <a href="https://www.linkedin.com/in/somesh-hotkar-451767270/"><img src="linkedin.svg" class="w-10 h-10">
+            </a>
+
+            <a href="https://www.instagram.com/defnotsomu/"><img src="instagram-1.svg" class="w-10 h-10"></a>
+            <a href="https://web.whatsapp.com/"><img src="whatsapp.svg" class="w-10 h-10"></a>
+            <a href="https://web.telegram.org/k/#@jeans_Sadi_Kurta_Loot_Deals"><img src="telegram.svg"
+                    class="w-10 h-10"></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><img src="gmail.svg" class="w-10 h-10"></a>
         </div>
         <div class="navbar-end space-x-6">
-            <img src="twitter.svg" alt="" height="10vh" width="7%">
-            <img src="linkedin.svg" alt="" height="10vh" width="7%">
 
-            <img src="instagram-1.svg" alt="" height="10vh" width="7%">
-            <img src="whatsapp.svg" alt="" height="10vh" width="7%">
-            <img src="telegram.svg" alt="" height="10vh" width="7%">
-            <img src="gmail.svg" alt="" height="10vh" width="8%">
             <!-- <button class="btn btn-ghost btn-circle">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -70,12 +72,7 @@
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
             </button> -->
-            <div class="avatar">
-                <div class="w-12 mask mask-hexagon">
-                    <img
-                        src="https://media.licdn.com/dms/image/D5603AQHJkAepdtX9aA/profile-displayphoto-shrink_200_200/0/1707317534759?e=2147483647&v=beta&t=Jz2Mevw5FVd1gaUtTA_2TZtLO9lPcoRYVtjuK8PdO5Y" />
-                </div>
-            </div>
+            <img src="dd.jpg" class="w-20 h-15">
         </div>
     </div>
 
@@ -83,34 +80,51 @@
     <!-- text -->
     <div class="hero min-h-screen ">
         <div class="hero-content text-center">
-            <div class="max-w-9xl">
-                <p class="lg:text-9xl  text-9xl font-bold text-cyan-400 tiro-devanagari-hindi-regular ">सोमेश Hotkar</p>
-                <br>
-                <p
-                    class="lg:text-9xl  text-9xl font-bold text-cyan-400 tiro-devanagari-hindi-regular underline underline-offset-1">
-                    An</p>
-                <p class="py-6"> <span class="text-cyan-400 text-5xl ">Product Designer</span> . </p>
-                <p class="py-2"> <span class="text-cyan-400 text-4xl">Content Writer</span>.</p><br>
-                <p class="py-1"> <span class="text-cyan-400 text-4xl">Web Devloper</span>.</p>
+            <div>
+                <div class="container">
 
+                    <video autoplay loop muted>
+
+                        <source src="video.mp4" type="video/mp4">
+
+
+                    </video>
+                    <div class="text-box">
+                        <h1 class="lg:text-9xl  text-9xl font-bold text-cyan-400 tiro-devanagari-hindi-regular ">सोमेश
+                            Hotkar</h1>
+                        <br>
+
+                        <div class="max-w-9xl">
+                            <div class="flex space-x-5 justify-center text-xl ">
+                                <p class="text-2xl text-red-200">Product Designer</p>
+                                <p class="text-2xl text-red-200">Content Writer</p><br>
+                                <p class="text-2xl text-red-200">Web Developer</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
+
         </div>
     </div>
+
+
+
+
+
+
+
 
     <!-- about me -->
 
     <div class="hero  ">
         <div class="hero-content text-center">
             <div class="max-w-9xl flex mx-auto space-x-5">
-                <h1 class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular "><u> About
-                        Me</u> </h1>
+                <h1 class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular "> About
+                    Me</h1>
 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="w-10 h-10 my-7">
-                    <path fill-rule="evenodd"
-                        d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
-                        clip-rule="evenodd" />
-                </svg>
 
             </div>
         </div>
@@ -120,102 +134,104 @@
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div
                 class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 class="title-font sm:text-2xl text-1xl mb-4 font-medium text-gray-50">A dedicated Computer Science
+                <p class=" text-xl  mb-4  text-gray-50">A dedicated Computer Science
                     Engineering student, I've dedicated the past two years to refining my proficiency in website design
                     and acquiring a comprehensive understanding of marketing strategies. My journey extends beyond
                     academic pursuits, as evidenced by my active participation in international and IIT-level
-                    competitions, hackathons, and the prestigious WRC. <br><br>
+                    competitions, hackathons, and the prestigious WRC. </p>
 
-                    These experiences have not only sharpened my technical skills but have also instilled in me a
+                <p class=" text-xl  mb-4  text-gray-50"> These experiences have not only sharpened my technical skills
+                    but have also instilled in me a
                     passion for tackling intricate problems. I am fueled by the challenge of bringing innovative
                     products and ideas to fruition. My commitment to excellence is further underscored by recent
                     participation in [INEX INTERNATIONAL COMPETITION] where I collaborated on impactful projects.
-                    <br><br>
+                </p>
 
-                    As I continue my academic journey, I am eager to leverage my diverse skill set to contribute
+                <p class=" text-xl  mb-4  text-gray-50">As I continue my academic journey, I am eager to leverage my
+                    diverse skill set to contribute
                     meaningfully to projects that align with my passion for problem-solving and innovation. Looking
                     ahead, I am enthusiastic about the prospect of driving positive change through cutting-edge
-                    solutions and collaborative endeavors. <br><br>
+                    solutions and collaborative endeavors. </p>
 
-                    Outside of tech,I have good photography skills and good video and photo editing skillls and have a
-                    good Experience in Event organizing and handling. <br>
-                </h1>
+                <p class=" text-xl  mb-4  text-gray-50">Outside of tech,I have good photography skills and good video
+                    and photo editing skillls and have a
+                    good Experience in Event organizing and handling.
+                </p>
+
 
 
                 <p class="text-sm mt-2 text-cyan-300 mb-8 w-full"> From Shetty Institute Of Technology Kalaburagi.</p>
-                <div class="flex lg:flex-row md:flex-col space-x-10">
+                <div class="flex space-x-2 flex-col lg:flex-row space-y-2 lg:space-y-0">
                     <button
-                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-indigo">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                            viewBox="0 0 50 50">
-                            <path
-                                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
-                            </path>
-                        </svg>
-                        <span class="ml-4 flex items-start flex-col leading-none">
-                            <a href="https://in.linkedin.com/in/somesh-hotkar-451767270"
-                                class="text-cyan-900 visited:text-cyan-900 ...">
-                                <span class="title-font font-medium text-2xl">Somesh Hotkar</span>
-                            </a>
+                        class="bg-gray-100  py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-indigo w-50 h-15">
+                        <a href="https://www.linkedin.com/in/somesh-hotkar-451767270/"><svg
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="40"
+                                viewBox="0 0 50 50">
+                                <path
+                                    d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                                </path>
+                            </svg>
+                        </a>
 
-
-
-                        </span>
                     </button>
                     <button
-                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                            viewBox="0 0 50 50">
-                            <path
-                                d="M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445	c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758	c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125	c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077	C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z">
-                            </path>
-                        </svg>
+                        class="bg-gray-100  py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none  w-50 h-15">
+                        <a href="https://web.telegram.org/k/#@ieofficial">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+                                <path
+                                    d="M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445	c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758	c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125	c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077	C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z">
+                                </path>
+                            </svg>
+                        </a>
                         <span class="ml-4 flex items-start flex-col leading-none">
-                            <a href="https://web.telegram.org/k/#777000"
-                                class="text-cyan-900 visited:text-cyan-900 ...">
-                                <span class="title-font font-medium text-2xl">Somesh Hotkar</span>
+                            <a href="https://web.telegram.org/k/#777000" class="text-cyan-900 visited:text-cyan-900 ">
+
                             </a>
-
-
-
                         </span>
                     </button>
 
                     <button
-                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                            viewBox="0 0 72 72">
-                            <path
-                                d="M63,19.645c-1.43,2.143-3.24,4.026-5.325,5.538c0.02,0.459,0.03,0.921,0.03,1.384C57.705,40.701,46.977,57,27.353,57	C21.328,57,13.476,54.884,11,52.195c0.836,0.1,1.686,0.15,2.546,0.15c4.999,0,9.6-1.711,13.249-4.58	c-4.668-0.086-8.608-3.18-9.966-7.43c2.124,0.334,4.818-0.184,4.818-0.184s-8.342-1.436-8.558-10.622	c2.412,1.402,4.832,1.338,4.832,1.338s-4.811-2.97-4.744-8.901c0.039-3.499,1.442-5.38,1.442-5.38	c9.115,11.255,21.989,11.178,21.989,11.178s-0.276-1.598-0.276-2.436c0-5.906,4.775-10.697,10.667-10.697	c3.068,0,5.84,1.3,7.786,3.379c2.432-0.482,4.716-1.372,6.776-2.597c-0.931,3.737-4.69,5.918-4.69,5.918S60.09,20.971,63,19.645z M34.528,48.206c1.646-0.256,15.165-4.291,16.153-21.64c0.015-0.27,0.005-1.258-0.012-1.627c-0.001-0.032,0.034-0.113,0.053-0.132	c0.057-0.057,0.112-0.133,0.15-0.222c0.015-0.034,0.01-0.081-0.027-0.092c-0.07-0.02-0.127-0.043-0.169-0.061	c-0.049-0.021-0.05-0.062-0.019-0.108s0.067-0.109,0.085-0.184c0.005-0.02-0.004-0.054-0.045-0.055	c-0.051-0.001-0.095,0.005-0.127,0.004c-0.034-0.001-0.084-0.03-0.1-0.044c-0.503-0.461-1.444-1.475-2.899-1.475	c-1.383,0-3.243,1.319-3.243,5.345c0,1.26,0.021,2.61,0.063,3.933c0.049,1.527-1.281,3.015-3.402,2.964	c-3.498-0.085-8.955-0.512-13.326-2.172c0.147,0.466,0.348,0.859,0.539,1.166c0.302,0.486,0.286,1.003-0.185,1.282	c-0.471,0.28-1.12,0.591-1.834,0.72c1.722,1.022,3.497,1.737,4.565,2.122c0.616,0.222,1.022,0.74,0.842,1.371	c-0.177,0.619-0.552,1.456-1.346,2.339c0.824,0.251,2.716,0.372,4.143,0.428c1.009,0.04,1.753,0.865,1.58,1.956	C35.76,45.338,35.344,47.048,34.528,48.206z">
-                            </path>
-                        </svg>
+                        class="bg-gray-100  py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none  w-50 h-15">
+                        <a href="https://twitter.com/home"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="50" height="50" viewBox="0 0 72 72">
+                                <path
+                                    d="M63,19.645c-1.43,2.143-3.24,4.026-5.325,5.538c0.02,0.459,0.03,0.921,0.03,1.384C57.705,40.701,46.977,57,27.353,57	C21.328,57,13.476,54.884,11,52.195c0.836,0.1,1.686,0.15,2.546,0.15c4.999,0,9.6-1.711,13.249-4.58	c-4.668-0.086-8.608-3.18-9.966-7.43c2.124,0.334,4.818-0.184,4.818-0.184s-8.342-1.436-8.558-10.622	c2.412,1.402,4.832,1.338,4.832,1.338s-4.811-2.97-4.744-8.901c0.039-3.499,1.442-5.38,1.442-5.38	c9.115,11.255,21.989,11.178,21.989,11.178s-0.276-1.598-0.276-2.436c0-5.906,4.775-10.697,10.667-10.697	c3.068,0,5.84,1.3,7.786,3.379c2.432-0.482,4.716-1.372,6.776-2.597c-0.931,3.737-4.69,5.918-4.69,5.918S60.09,20.971,63,19.645z M34.528,48.206c1.646-0.256,15.165-4.291,16.153-21.64c0.015-0.27,0.005-1.258-0.012-1.627c-0.001-0.032,0.034-0.113,0.053-0.132	c0.057-0.057,0.112-0.133,0.15-0.222c0.015-0.034,0.01-0.081-0.027-0.092c-0.07-0.02-0.127-0.043-0.169-0.061	c-0.049-0.021-0.05-0.062-0.019-0.108s0.067-0.109,0.085-0.184c0.005-0.02-0.004-0.054-0.045-0.055	c-0.051-0.001-0.095,0.005-0.127,0.004c-0.034-0.001-0.084-0.03-0.1-0.044c-0.503-0.461-1.444-1.475-2.899-1.475	c-1.383,0-3.243,1.319-3.243,5.345c0,1.26,0.021,2.61,0.063,3.933c0.049,1.527-1.281,3.015-3.402,2.964	c-3.498-0.085-8.955-0.512-13.326-2.172c0.147,0.466,0.348,0.859,0.539,1.166c0.302,0.486,0.286,1.003-0.185,1.282	c-0.471,0.28-1.12,0.591-1.834,0.72c1.722,1.022,3.497,1.737,4.565,2.122c0.616,0.222,1.022,0.74,0.842,1.371	c-0.177,0.619-0.552,1.456-1.346,2.339c0.824,0.251,2.716,0.372,4.143,0.428c1.009,0.04,1.753,0.865,1.58,1.956	C35.76,45.338,35.344,47.048,34.528,48.206z">
+                                </path>
+                            </svg>
+                        </a>
                         <span class="ml-4 flex items-start flex-col leading-none">
                             <a href="https://www.instagram.com/defnotsomu?igsh=MTA0eWEzNWVwMHZsMg=="
                                 class="text-cyan-900 visited:text-cyan-900 ...">
-                                <span class="title-font font-medium text-2xl">Somesh Hotkar</span>
+
                             </a>
                     </button>
 
                     <button
-                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                            viewBox="0 0 72 72">
-                            <path
-                                d="M 35.75 14 C 15.579 14 14 15.579 14 35.75 L 14 36.25 C 14 56.421 15.579 58 35.75 58 L 36.25 58 C 56.421 58 58 56.421 58 36.25 L 58 35.75 C 58 15.579 56.421 14 36.25 14 L 35.75 14 z M 30 22 L 42 22 C 49.419 22 50 22.581 50 30 L 50 42 C 50 49.419 49.419 50 42 50 L 30 50 C 22.581 50 22 49.419 22 42 L 22 30 C 22 22.581 22.581 22 30 22 z M 45.496094 25 C 44.668094 25.002 43.998 25.674906 44 26.503906 C 44.002 27.331906 44.674906 28.002 45.503906 28 C 46.331906 27.998 47.002 27.325094 47 26.496094 C 46.998 25.668094 46.325094 24.998 45.496094 25 z M 35.976562 26 C 30.454563 26.013 25.987 30.501437 26 36.023438 C 26.013 41.545437 30.501437 46.013 36.023438 46 C 41.545437 45.987 46.013 41.498562 46 35.976562 C 45.987 30.454563 41.498562 25.987 35.976562 26 z M 35.990234 32 C 38.199234 31.995 39.994 33.781234 40 35.990234 C 40.005 38.199234 38.218766 39.995 36.009766 40 C 33.800766 40.005 32.006 38.218766 32 36.009766 C 31.995 33.800766 33.781234 32.006 35.990234 32 z">
-                            </path>
-                        </svg>
+                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none  w-25 h-15 space-y-2 lg:space-y-0">
+                        <a href="https://www.instagram.com/defnotsomu/"> <svg xmlns="http://www.w3.org/2000/svg" x="0px"
+                                y="0px" width="50" height="50" viewBox="0 0 72 72">
+                                <path
+                                    d="M 35.75 14 C 15.579 14 14 15.579 14 35.75 L 14 36.25 C 14 56.421 15.579 58 35.75 58 L 36.25 58 C 56.421 58 58 56.421 58 36.25 L 58 35.75 C 58 15.579 56.421 14 36.25 14 L 35.75 14 z M 30 22 L 42 22 C 49.419 22 50 22.581 50 30 L 50 42 C 50 49.419 49.419 50 42 50 L 30 50 C 22.581 50 22 49.419 22 42 L 22 30 C 22 22.581 22.581 22 30 22 z M 45.496094 25 C 44.668094 25.002 43.998 25.674906 44 26.503906 C 44.002 27.331906 44.674906 28.002 45.503906 28 C 46.331906 27.998 47.002 27.325094 47 26.496094 C 46.998 25.668094 46.325094 24.998 45.496094 25 z M 35.976562 26 C 30.454563 26.013 25.987 30.501437 26 36.023438 C 26.013 41.545437 30.501437 46.013 36.023438 46 C 41.545437 45.987 46.013 41.498562 46 35.976562 C 45.987 30.454563 41.498562 25.987 35.976562 26 z M 35.990234 32 C 38.199234 31.995 39.994 33.781234 40 35.990234 C 40.005 38.199234 38.218766 39.995 36.009766 40 C 33.800766 40.005 32.006 38.218766 32 36.009766 C 31.995 33.800766 33.781234 32.006 35.990234 32 z">
+                                </path>
+                            </svg>
+                        </a>
                         <span class="ml-4 flex items-start flex-col leading-none">
                             <a href="https://www.instagram.com/defnotsomu?igsh=MTA0eWEzNWVwMHZsMg=="
                                 class="text-cyan-900 visited:text-cyan-900 ...">
-                                <span class="title-font font-medium text-2xl">Somesh Hotkar</span>
+
                             </a>
                     </button>
                 </div>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img class="object-cover object-center rounded" alt="hero" height="100vh" width="87%"
-                    src="WhatsApp Image 2024-04-20 at 8.25.39 PM.jpeg">
+            <div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
+                    <img class="object-cover object-center rounded h-96 w-96"
+                        src="WhatsApp Image 2024-04-20 at 8.25.39 PM.jpeg">
+                </div>
+
             </div>
+            <!--    -->
+        </div>
         </div>
     </section>
 
@@ -225,7 +241,7 @@
     <!-- <h1
     class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular underline underline-offset-4 ">
    <center> skills</center> </h1><br><br>
-   <center><img src="skills.jpeg" alt="" width="80%" height="10vh"></center> -->
+   <center><img src="skills.jpeg" alt="" width="80%" height="10vh"></center>  -->
 
 
 
@@ -235,15 +251,11 @@
     <div class="hero  ">
         <div class="hero-content text-center">
             <div class="max-w-9xl flex mx-auto space-x-5">
-                <h1
-                    class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular underline underline-offset-4">
+                <h1 class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular ">
                     Projects On </h1>
 
 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="w-10 h-10 my-7">
-                    <path
-                        d="M21.721 12.752a9.711 9.711 0 0 0-.945-5.003 12.754 12.754 0 0 1-4.339 2.708 18.991 18.991 0 0 1-.214 4.772 17.165 17.165 0 0 0 5.498-2.477ZM14.634 15.55a17.324 17.324 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 0 0 .332 4.647 17.385 17.385 0 0 0 5.268 0ZM9.772 17.119a18.963 18.963 0 0 0 4.456 0A17.182 17.182 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605ZM7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.753 12.753 0 0 1-4.34-2.708 9.711 9.711 0 0 0-.944 5.004 17.165 17.165 0 0 0 5.498 2.477ZM21.356 14.752a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.627 18.627 0 0 0 5.49-2.098ZM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7.478-6.816ZM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.267 11.267 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49ZM12 2.276a17.152 17.152 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0 1 12 2.276ZM10.122 2.43a18.629 18.629 0 0 0-2.37 6.49 11.266 11.266 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985Z" />
-                </svg>
+
 
 
 
@@ -255,78 +267,62 @@
         <div class="container px-5 py-24 mx-auto">
 
             <div class="flex flex-wrap">
-                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2
-                        class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2 underline underline-offset-8 ">
-                        <center>INNOVATION</center>
-                    </h2><br><br>
-                    <p class="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-500">InnoHelmet</p><br>
-                    <a href="https://in.linkedin.com/in/somesh-hotkar-45176727">
-                        <span class="title-font font-medium text-3xl text-indigo-700">Explore More</span>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 bg-gray-900 rounded-lg">
+                    <h2 class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2">
+                        INNOVATION
+                    </h2>
+                    <p class="py-6">i do some cad design and projects, you can view my projects here</p>
+                    <div class="py-6"> <a class="btn text-black bg-cyan-400 rounded-lg  "> look here</a></div>
+
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 bg-gray-900 rounded-lg">
+                    <h2 class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2  ">
+                        WEB
+                    </h2>
+                    <p class="py-6">i do some cad design and projects, you can view my projects here</p>
+                    <div class="py-6"> <a class="btn bg-cyan-400 text-black rounded-lg">look here</a></div>
 
 
                     </a>
                 </div>
-                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2
-                        class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2 underline underline-offset-8 ">
-                        <center>WEB</center>
-                    </h2> <br><br>
-                    <p class="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-500">WHBMS</p><br>
-                    <a href="http://localhost/whbs/">
-                        <span class="title-font font-medium text-3xl text-indigo-700">Explore More</span>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 bg-gray-900 rounded-lg">
+                    <h2 class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2  justify-center">
+                        Editing
+                    </h2>
+                    <p class="py-6">i do some cad design and projects, you can view my projects here</p>
+                    <div class="py-6"> <a class="btn text-black bg-cyan-400 rounded-lg"> look here</a></div>
 
-
-                    </a>
                 </div>
-                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2
-                        class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2 underline underline-offset-8 justify-center">
-                        <center>CAD </center>
-                    </h2><br><br>
-                    <p class="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-500">3d Products</p><br>
-                    <a
-                        href="https://cad.onshape.com/documents?resourceType=resourceuserowner&nodeId=63fc7a466ca46e19a7cf02e2">
-                        <span class="title-font font-medium text-3xl text-indigo-700">Explore More</span>
-
-
-                    </a>
-                </div>
-                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2
-                        class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2 underline underline-offset-8 ">
-                        <center>Editing</center>
-                    </h2> <br><br>
-                    <p class="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-500">videos Edits</p><br>
-                    <a href="https://www.youtube.com/results?search_query=video+editing">
-                        <span class="title-font font-medium text-3xl text-indigo-700">Explore More</span>
-
-
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 bg-gray-900 rounded-lg">
+                    <h2 class="text-lg sm:text-5xl text-cyan-50 font-medium title-font mb-2 justify-center">
+                        CAD
+                    </h2>
+                    <p class="py-6">i do some cad design and projects, you can view my projects here</p>
+                    <div class="py-6"><a class="btn bg-cyan-400 text-black rounded-lg">Look here</a></div>
                     </a>
                 </div>
             </div>
-            <button
-                class="flex mx-auto mt-16 text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-900 rounded text-lg">Get
-                More</button>
         </div>
     </section>
-    <br><br><br><br>
+
+
+
+
 
     <!-- services -->
     <div class="hero  ">
         <div class="hero-content text-center">
             <div class="max-w-9xl flex mx-auto space-x-5">
-                <h1
-                    class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular underline underline-offset-4">
+                <h1 class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular ">
                     services</h1>
 
 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="w-10 h-10 my-7">
-                    <path
-                        d="M17.004 10.407c.138.435-.216.842-.672.842h-3.465a.75.75 0 0 1-.65-.375l-1.732-3c-.229-.396-.053-.907.393-1.004a5.252 5.252 0 0 1 6.126 3.537ZM8.12 8.464c.307-.338.838-.235 1.066.16l1.732 3a.75.75 0 0 1 0 .75l-1.732 3c-.229.397-.76.5-1.067.161A5.23 5.23 0 0 1 6.75 12a5.23 5.23 0 0 1 1.37-3.536ZM10.878 17.13c-.447-.098-.623-.608-.394-1.004l1.733-3.002a.75.75 0 0 1 .65-.375h3.465c.457 0 .81.407.672.842a5.252 5.252 0 0 1-6.126 3.539Z" />
-                    <path fill-rule="evenodd"
-                        d="M21 12.75a.75.75 0 1 0 0-1.5h-.783a8.22 8.22 0 0 0-.237-1.357l.734-.267a.75.75 0 1 0-.513-1.41l-.735.268a8.24 8.24 0 0 0-.689-1.192l.6-.503a.75.75 0 1 0-.964-1.149l-.6.504a8.3 8.3 0 0 0-1.054-.885l.391-.678a.75.75 0 1 0-1.299-.75l-.39.676a8.188 8.188 0 0 0-1.295-.47l.136-.77a.75.75 0 0 0-1.477-.26l-.136.77a8.36 8.36 0 0 0-1.377 0l-.136-.77a.75.75 0 1 0-1.477.26l.136.77c-.448.121-.88.28-1.294.47l-.39-.676a.75.75 0 0 0-1.3.75l.392.678a8.29 8.29 0 0 0-1.054.885l-.6-.504a.75.75 0 1 0-.965 1.149l.6.503a8.243 8.243 0 0 0-.689 1.192L3.8 8.216a.75.75 0 1 0-.513 1.41l.735.267a8.222 8.222 0 0 0-.238 1.356h-.783a.75.75 0 0 0 0 1.5h.783c.042.464.122.917.238 1.356l-.735.268a.75.75 0 0 0 .513 1.41l.735-.268c.197.417.428.816.69 1.191l-.6.504a.75.75 0 0 0 .963 1.15l.601-.505c.326.323.679.62 1.054.885l-.392.68a.75.75 0 0 0 1.3.75l.39-.679c.414.192.847.35 1.294.471l-.136.77a.75.75 0 0 0 1.477.261l.137-.772a8.332 8.332 0 0 0 1.376 0l.136.772a.75.75 0 1 0 1.477-.26l-.136-.771a8.19 8.19 0 0 0 1.294-.47l.391.677a.75.75 0 0 0 1.3-.75l-.393-.679a8.29 8.29 0 0 0 1.054-.885l.601.504a.75.75 0 0 0 .964-1.15l-.6-.503c.261-.375.492-.774.69-1.191l.735.267a.75.75 0 1 0 .512-1.41l-.734-.267c.115-.439.195-.892.237-1.356h.784Zm-2.657-3.06a6.744 6.744 0 0 0-1.19-2.053 6.784 6.784 0 0 0-1.82-1.51A6.705 6.705 0 0 0 12 5.25a6.8 6.8 0 0 0-1.225.11 6.7 6.7 0 0 0-2.15.793 6.784 6.784 0 0 0-2.952 3.489.76.76 0 0 1-.036.098A6.74 6.74 0 0 0 5.251 12a6.74 6.74 0 0 0 3.366 5.842l.009.005a6.704 6.704 0 0 0 2.18.798l.022.003a6.792 6.792 0 0 0 2.368-.004 6.704 6.704 0 0 0 2.205-.811 6.785 6.785 0 0 0 1.762-1.484l.009-.01.009-.01a6.743 6.743 0 0 0 1.18-2.066c.253-.707.39-1.469.39-2.263a6.74 6.74 0 0 0-.408-2.309Z"
-                        clip-rule="evenodd" />
+
+                <path
+                    d="M17.004 10.407c.138.435-.216.842-.672.842h-3.465a.75.75 0 0 1-.65-.375l-1.732-3c-.229-.396-.053-.907.393-1.004a5.252 5.252 0 0 1 6.126 3.537ZM8.12 8.464c.307-.338.838-.235 1.066.16l1.732 3a.75.75 0 0 1 0 .75l-1.732 3c-.229.397-.76.5-1.067.161A5.23 5.23 0 0 1 6.75 12a5.23 5.23 0 0 1 1.37-3.536ZM10.878 17.13c-.447-.098-.623-.608-.394-1.004l1.733-3.002a.75.75 0 0 1 .65-.375h3.465c.457 0 .81.407.672.842a5.252 5.252 0 0 1-6.126 3.539Z" />
+                <path fill-rule="evenodd"
+                    d="M21 12.75a.75.75 0 1 0 0-1.5h-.783a8.22 8.22 0 0 0-.237-1.357l.734-.267a.75.75 0 1 0-.513-1.41l-.735.268a8.24 8.24 0 0 0-.689-1.192l.6-.503a.75.75 0 1 0-.964-1.149l-.6.504a8.3 8.3 0 0 0-1.054-.885l.391-.678a.75.75 0 1 0-1.299-.75l-.39.676a8.188 8.188 0 0 0-1.295-.47l.136-.77a.75.75 0 0 0-1.477-.26l-.136.77a8.36 8.36 0 0 0-1.377 0l-.136-.77a.75.75 0 1 0-1.477.26l.136.77c-.448.121-.88.28-1.294.47l-.39-.676a.75.75 0 0 0-1.3.75l.392.678a8.29 8.29 0 0 0-1.054.885l-.6-.504a.75.75 0 1 0-.965 1.149l.6.503a8.243 8.243 0 0 0-.689 1.192L3.8 8.216a.75.75 0 1 0-.513 1.41l.735.267a8.222 8.222 0 0 0-.238 1.356h-.783a.75.75 0 0 0 0 1.5h.783c.042.464.122.917.238 1.356l-.735.268a.75.75 0 0 0 .513 1.41l.735-.268c.197.417.428.816.69 1.191l-.6.504a.75.75 0 0 0 .963 1.15l.601-.505c.326.323.679.62 1.054.885l-.392.68a.75.75 0 0 0 1.3.75l.39-.679c.414.192.847.35 1.294.471l-.136.77a.75.75 0 0 0 1.477.261l.137-.772a8.332 8.332 0 0 0 1.376 0l.136.772a.75.75 0 1 0 1.477-.26l-.136-.771a8.19 8.19 0 0 0 1.294-.47l.391.677a.75.75 0 0 0 1.3-.75l-.393-.679a8.29 8.29 0 0 0 1.054-.885l.601.504a.75.75 0 0 0 .964-1.15l-.6-.503c.261-.375.492-.774.69-1.191l.735.267a.75.75 0 1 0 .512-1.41l-.734-.267c.115-.439.195-.892.237-1.356h.784Zm-2.657-3.06a6.744 6.744 0 0 0-1.19-2.053 6.784 6.784 0 0 0-1.82-1.51A6.705 6.705 0 0 0 12 5.25a6.8 6.8 0 0 0-1.225.11 6.7 6.7 0 0 0-2.15.793 6.784 6.784 0 0 0-2.952 3.489.76.76 0 0 1-.036.098A6.74 6.74 0 0 0 5.251 12a6.74 6.74 0 0 0 3.366 5.842l.009.005a6.704 6.704 0 0 0 2.18.798l.022.003a6.792 6.792 0 0 0 2.368-.004 6.704 6.704 0 0 0 2.205-.811 6.785 6.785 0 0 0 1.762-1.484l.009-.01.009-.01a6.743 6.743 0 0 0 1.18-2.066c.253-.707.39-1.469.39-2.263a6.74 6.74 0 0 0-.408-2.309Z"
+                    clip-rule="evenodd" />
                 </svg>
 
 
@@ -338,7 +334,7 @@
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
             <div class="flex w-full mb-20 flex-wrap">
-                <h1 class="lg:text-5xl text-5xl font-medium title-font text-red-600 lg:w-1/3 lg:mb-0 mb-4"><span
+                <h1 class="lg:text-5xl text-5xl font-medium title-font text-cyan-400 lg:w-1/3 lg:mb-0 mb-4"><span
                         class="text-gray-200">team</span> - 4<span class="text-gray-200">0</span>4
 
                 </h1>
@@ -359,7 +355,7 @@
                                     stunning web design."</p>
                                 <div class="card-actions justify-end">
                                     <button class="btn btn-dark font-bold content-center btn-outline">
-                                        <a href="https://github.com/someshhotkar/boot"
+                                        <a href="http://127.0.0.1:5502/img/index.html"
                                             class="text-white-900 visited:text-white-600 ...">
                                             Check Out!!
                                         </a></button>
@@ -441,15 +437,14 @@
                         <div
                             class="card w-96 bg-base-100 shadow-xl w-full object-cover h-full object-center block border-double border-4 border-sky-500 ">
                             <div class="card-body text-white">
-                                <h2 class="card-title">Carrier Guiding!</h2>
-                                <p>"Navigate your career journey with clarity and purpose. Forge your path with passion
-                                    and resilience."</p>
+                                <h2 class="card-title">CAD Designer!</h2>
+                                <p>"A CAD designer uses software to craft detailed digital models and technical drawings, facilitating efficient product development."</p>
                                 <div class="card-actions justify-end">
                                     <button class="btn btn-dark font-bold content-center btn-outline">
-                                        <a href="https://seinfeldquotes.com"
-                                            class="text-white-900 visited:text-white-600 ...">
-                                            Check Out!!
-                                        </a>
+                                        <a href="https://cad.onshape.com/documents?resourceType=resourceuserowner&nodeId=63fc7a466ca46e19a7cf02e2"
+                                        class="text-white-900 visited:text-white-600 ...">
+                                        Check Out!!
+                                    </a>
                                     </button>
                                 </div>
                             </div>
@@ -482,86 +477,102 @@
 
 
     <br><br><br><br><br>
-   
-    <section class="text-gray-600 body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -m-12">
-                <div class="p-12 md:w-1/2 flex flex-col items-start">
-
-                    <div class="hero  ">
-                        <div class="hero-content text-center p-10 my-20">
-                            <div class="max-w-9xl  ">
-
-                                <h1
-                                    class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular underline underline-offset-8 ">
-                                    Resume/CV</h1>
 
 
-                                <br><br>
-                                <button
-                                    class="btn items-center justify-center p-12  font-bold content-center btn-outline btn-warning text-4xl  ">Download
-                                    Resume
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                                    </svg>
+    <!-- resume -->
 
-                                </button>
+    <div class="hero">
+        <div class="hero-content text-center p-10 my-20 ">
+            <div class="max-w-9xl  ">
 
+                <h1 class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular  ">
+                    Resume/CV</h1>
+
+
+                <br><br>
+
+
+                <a href="STUDENT MANAGEMENT SYSTEM (1).pdf">
+
+                    <button
+                        class="btn items-center justify-center p-12  font-bold content-center btn-outline btn-warning text-4xl  ">Download
+                        Resume
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-10 h-10">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </div><br><br><br>
+
+
+
+    <!-- achievenments -->
+
+
+    <h1 class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular ">
+        <center>Milestones</center>
+    </h1>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap ">
+            <div class="lg:w-2/3 mx-auto w-10 h-10">
+                <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4 ">
+                    <img class="w-full object-cover h-full object-center block  absolute inset-0" src="4.jpeg">
+
+
+
+                </div>
+                <div class="flex flex-wrap -mx-2">
+                    <div class="px-2 w-1/2">
+                        <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                            <img alt="gallery"
+                                class="w-full object-cover h-full object-center block  absolute inset-0 h-10 w-10"
+                                src="1.jpeg">
+                            <div class="text-center relative z-10 w-full">
 
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                    <div class="px-2 w-1/2">
+                        <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                            <img alt="gallery" class="w-full object-cover h-full object-center block  absolute inset-0"
+                                src="5.jpeg">
+                            <div class="text-center relative z-10 w-full">
 
-                        </a>
-                        <span
-                            class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                <circle cx="12" cy="12" r="3"></circle>
-                            </svg>1.2K
-                        </span>
-                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                <path
-                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                </path>
-                            </svg>6
-                        </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4  ">
+                        <img class="w-full object-cover h-full object-center block  absolute inset-0" src="10.jpeg">
+
+
+
+
                     </div>
 
                 </div>
-                <div class="p-12 md:w-1/2 flex flex-col items-start">
 
-                    <img src="skills.jpeg" alt="" width="100%">
-                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
-
-
-
-                        <path
-                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                        </path>
-                        </svg>
-                        </span>
-                    </div>
-
-
-                </div>
             </div>
+
         </div>
-    </section><br><br><br>
+    </section>
+
 
 
     <!-- contact -->
 
 
-    <h1
-                    class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular underline underline-offset-4">
-                    <center>Contact Info</center></h1>
+    <h1 class="lg:text-8xl  text-4xl font-bold text-cyan-400 tiro-devanagari-hindi-regular ">
+        <center>Contact Info</center>
+    </h1>
 
     <section class="text-gray-600 body-font relative">
         <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -599,7 +610,7 @@
                     <input type="email" id="email" name="email"
                         class="w-full bg-danger rounded border border-gray-100 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
-                <div class="relative mb-4"> 
+                <div class="relative mb-4">
                     <label for="message" class="leading-7 text-sm text-indigo-50 ">Message</label>
                     <textarea id="message" name="message"
                         class="w-full bg-danger rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
